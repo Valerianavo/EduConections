@@ -109,11 +109,6 @@ export function cargarComentariosEnTiempoReal(postId, callback) {
     return onSnapshot(q, callback);
 }
 
-// Función para obtener todos los comentarios de una publicaci
-//export function cargarComentarios(postId) {
-    //return getDocs(query(collection(db, "comentarios"), orderBy("timestamp", "desc")));
-//}
-
 //             FEEED 
 // Función para agregar una post
 export function agregarPost(comentario, imageFile) {

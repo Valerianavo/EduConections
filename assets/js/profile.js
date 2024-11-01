@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 });
-
+//btnLogout
 document.getElementById("btnLogout").addEventListener("click", () => {
     signOut(auth)
         .then(() => {
